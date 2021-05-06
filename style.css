@@ -1,0 +1,16 @@
+.container {
+    width: 920px;
+    height: 920px;
+    max-height: 920px;
+    display: grid;
+    --num-rows: 4;
+    grid-template-columns: repeat(var(--num-rows), auto);
+    grid-template-rows: repeat(var(--num-rows), auto);
+    grid-gap: 2px;
+}
+
+.box {
+    border: solid 1px;
+    margin: 1.5%;
+    border-radius: 5%;
+}
