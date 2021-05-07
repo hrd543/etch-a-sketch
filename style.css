@@ -6,11 +6,15 @@
     --num-rows: 4;
     grid-template-columns: repeat(var(--num-rows), auto);
     grid-template-rows: repeat(var(--num-rows), auto);
-    grid-gap: 2px;
+    grid-gap:1px;
 }
 
 .box {
     border: solid 1px;
-    margin: 1.5%;
     border-radius: 5%;
+    background-color: red;
+}
+
+.clear {
+    background-color: white;
 }
